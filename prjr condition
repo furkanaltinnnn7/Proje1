@@ -1,0 +1,25 @@
+# Proje1
+package org.furkan.condition;
+
+import java.util.Scanner;
+
+public class DersCondition2 {
+    public static void main(String[] args) {
+        // Değişkenlerimi tanımladım
+        int x;
+        int y;
+        // Ekrandan veri okuyacak nesneyi oluştur
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Birinci sayıyı giriniz");
+        x = scanner.nextInt();
+        System.out.println("İkinici sayıyı giriniz");
+        y = scanner.nextInt();
+
+        // karar aşaması
+         if (x > y) {
+            System.out.println("Birinci sayı büyük");
+        } else {
+            System.out.println("İkinci sayı büyük");
+        }
+    }
+}
